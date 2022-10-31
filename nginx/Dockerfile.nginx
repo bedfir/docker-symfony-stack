@@ -1,0 +1,4 @@
+FROM nginx:latest
+WORKDIR /project
+COPY ./wonder.conf /etc/nginx/conf.d/default.conf
+# COPY . .
