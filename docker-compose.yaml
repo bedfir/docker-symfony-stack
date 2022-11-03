@@ -10,7 +10,7 @@ services:
     volumes:
       - type: bind
         target: /var/www/html
-        source: ./${FOLDER_WWW}
+        source: ./app
 
   nginx:
     build: 
@@ -19,7 +19,7 @@ services:
     container_name: ${APP_NAME}-webserver
     volumes:
       - type: bind
-        source: ./${FOLDER_WWW}
+        source: ./app
         target: /var/www/html
     ports:
       - '${PORT_SERVER}:80'
