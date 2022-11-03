@@ -13,19 +13,27 @@ Docker Compose (v1.22+)
 
 `git clone git@github.com:bedfir/docker-symfony-stack.git`
 
+Get the pgadmin for all the bdd servers
+
+
 2. Complete the .env file
+> change the exampls: 
 
-APP_NAME=`changeme`
+APP_NAME=`myProject`
 
-FOLDER_WWW=`changeme` 
+FOLDER_WWW=`myProject` 
 
-DOMAIN=`changeme`
+DOMAIN=`myProject`
 
-POSTGRES_PASSWORD=`changeme`
+POSTGRES_PASSWORD=`Yello123`
 
-POSTGRES_USER=`changeme`
+POSTGRES_USER=`myProject-user`
 
-POSTGRES_DB=`changeme`
+POSTGRES_DB=`myProject-bdd`
+
+PORT_SERVER=`80`
+
+PORT_BDD=`5432`
 
 ### Build and run
 

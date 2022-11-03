@@ -22,7 +22,7 @@ services:
         source: ./${FOLDER_WWW}
         target: /var/www/html
     ports:
-      - '8081:80'
+      - '${PORT_SERVER}:80'
       - '443:443'
     environment:
       - "DOMAIN=${DOMAIN}"
@@ -39,7 +39,7 @@ services:
        - db_data:/var/lib/postgresql/data
     restart: unless-stopped
     ports:
-      - 5432:5432
+      - ${PORT_BDD}:5432
 
 volumes:
   db_data:
