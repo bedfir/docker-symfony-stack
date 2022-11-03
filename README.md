@@ -26,8 +26,6 @@ Here the repo for setup `https://github.com/bedfir/Docker-pgadmin4`
 
 APP_NAME=`myProject`
 
-FOLDER_WWW=`myProject` 
-
 DOMAIN=`myProject`
 
 POSTGRES_PASSWORD=`Yello123`
