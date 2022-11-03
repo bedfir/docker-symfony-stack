@@ -1,0 +1,8 @@
+.env.local
+
+.env
+
+logs/*
+!logs/.gitkeep
+
+symfony/
