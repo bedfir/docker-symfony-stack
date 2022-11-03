@@ -1,4 +1,8 @@
 FROM nginx:latest
-WORKDIR /project
+WORKDIR /var/www/html
 COPY ./wonder.conf /etc/nginx/conf.d/default.conf
 # COPY . .
+# RUN echo "upstream php-upstream { server php:9000; }" > /etc/nginx/conf.d/upstream.conf
+
+EXPOSE 80
+EXPOSE 443
