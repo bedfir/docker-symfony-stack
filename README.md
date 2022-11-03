@@ -11,7 +11,7 @@ Docker Compose (v1.22+)
 
 1. Clone this directory
 
-git clone git@github.com:bedfir/docker-symfony-stack.git
+`git clone git@github.com:bedfir/docker-symfony-stack.git`
 
 2. Complete the .env file
 
