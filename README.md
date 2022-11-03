@@ -17,7 +17,8 @@ Get the pgadmin for all the bdd servers
 
 
 2. Complete the .env file
-> change the exampls: 
+
+> Change these examples: 
 
 APP_NAME=`myProject`
 
