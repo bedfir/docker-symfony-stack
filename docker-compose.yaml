@@ -11,6 +11,8 @@ services:
       - type: bind
         target: /var/www/html
         source: ./app
+    depends_on:
+      - "postgres"
 
   nginx:
     build: 
