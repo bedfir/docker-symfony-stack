@@ -46,5 +46,5 @@ From this directory, start up services by running `docker-compose up -d`
 
 Follow instructions from the symfony project, taking into account :
 
-* `docker compose exec <APP_NAME>-php <command>`
-> **example** `docker compose exec myProject-php composer create-project symfony/skeleton:"6.1.*" .`
+* `docker exec <APP_NAME>-php <command>`
+> **example** `docker exec myProject-php composer create-project symfony/skeleton:"6.1.*" .`
