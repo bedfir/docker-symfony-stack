@@ -17,8 +17,7 @@ Get the pgadmin for all the bdd servers
 
 Here the repo for setup `https://github.com/bedfir/Docker-pgadmin4`
 
-`git@github.com:bedfir/Docker-pgadmin4.git`
-
+`https://github.com/bedfir/Docker-pgadmin4.git`
 
 2. Complete the .env file
 
